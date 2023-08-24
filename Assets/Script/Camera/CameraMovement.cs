@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     int screenHeight = Screen.height;
 
     //Speed camera
-    float speed = 0.01f;
+    float speed = 0.05f;
     void Start()
     {
 
