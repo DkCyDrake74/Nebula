@@ -26,22 +26,22 @@ public class CameraMovement : MonoBehaviour
         float mouseY = mousePosition.y;
 
         //déplacement gauche
-        if (mouseX <= 20)
+        if (mouseX <= (screenHeight - screenHeight + 20))
         {
             transform.Translate(-speed, 0, 0);
         }
         //déplacement droite
-        if (mouseX >= 1200)
+        if (mouseX >= (screenWidth - 20))
         {
             transform.Translate(speed, 0, 0);
         }
         //déplacement haut
-        if (mouseY >= 640)
+        if (mouseY >= (screenHeight - 20))
         {
             transform.Translate(0, speed, 0);
         }
         //déplacements bas
-        if (mouseY <= 20)
+        if (mouseY <= screenWidth - screenWidth + 20)
         {
             transform.Translate(0, -speed, 0);
         }
