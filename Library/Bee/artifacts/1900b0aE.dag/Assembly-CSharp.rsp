@@ -389,6 +389,9 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Script/Camera/CameraMovement.cs"
+"Assets/Script/New Folder/HUD_Manager.cs"
+"Assets/Script/New Folder/UI_Build_Manager.cs"
+"Assets/Script/Ressources/ChroniumManager.cs"
 "Assets/Script/Ressources/GoldManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
