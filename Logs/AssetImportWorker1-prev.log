@@ -1,16 +1,25 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 32675 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 E:\Programmes\Unity\Unity2022.3.7f1\2022.3.7f1\Editor\Unity.exe
+=======
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 32555 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.7f1\Editor\Unity.exe
+>>>>>>> LD
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/axelr/Nebula/Nebula/Nebula
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +27,15 @@ Logs/AssetImportWorker1.log
 56045
 Successfully changed project path to: C:/Users/axelr/Nebula/Nebula/Nebula
 C:/Users/axelr/Nebula/Nebula/Nebula
+=======
+C:/Users/Utilisateur/Nebula
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59076
+Successfully changed project path to: C:/Users/Utilisateur/Nebula
+C:/Users/Utilisateur/Nebula
+>>>>>>> LD
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +67,7 @@ C:/Users/axelr/Nebula/Nebula/Nebula
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [19604] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2881252550 [EditorId] 2881252550 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19604] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2881252550 [EditorId] 2881252550 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,10 +101,44 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.276 seconds
 Domain Reload Profiling: 658ms
 	BeginReloadAssembly (114ms)
+=======
+Player connection [3448] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3714724595 [EditorId] 3714724595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3448] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3714724595 [EditorId] 3714724595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path D:/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Utilisateur/Nebula/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'D:/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003088 seconds.
+- Loaded All Assemblies, in  0.223 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.157 seconds
+Domain Reload Profiling: 378ms
+	BeginReloadAssembly (73ms)
+>>>>>>> LD
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (41ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -109,6 +162,31 @@ Domain Reload Profiling: 658ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (145ms)
 			ProcessInitializeOnLoadMethodAttributes (49ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+>>>>>>> LD
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,12 +194,20 @@ Domain Reload Profiling: 658ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.573 seconds
 Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+=======
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+>>>>>>> LD
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -130,6 +216,7 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.498 seconds
 Domain Reload Profiling: 1070ms
 	BeginReloadAssembly (153ms)
@@ -171,6 +258,49 @@ Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 52 unused Assets / (66.7 KB). Loaded Objects now: 3854.
 Memory consumption went from 129.8 MB to 129.8 MB.
 Total: 2.994400 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.436200 ms  DeleteObjects: 0.106800 ms)
+=======
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (66ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (66.7 KB). Loaded Objects now: 3857.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 2.307100 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.079300 ms MarkObjects: 1.960500 ms  DeleteObjects: 0.099500 ms)
+>>>>>>> LD
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,6 +317,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 36903.088879 seconds.
   path: Assets/Assets
   artifactKey: Guid(d8d9374c12a21fe4d9287dd412e11d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -571,10 +702,17 @@ Received Import Request.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-4.png
   artifactKey: Guid(39e2e50ab1fee3840bf51da4fec67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-4.png using Guid(39e2e50ab1fee3840bf51da4fec67fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e39bb82d9623a116f3c7e46932d130') in 0.089781 seconds
+=======
+  Time since last request: 538908.966034 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/cyan-planet.png
+  artifactKey: Guid(1eebe61fa30929248bdcda4d7c3c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/cyan-planet.png using Guid(1eebe61fa30929248bdcda4d7c3c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ebc7dc096466b6bc391007a9207e39') in 0.077894 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000037 seconds.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-10.png
   artifactKey: Guid(1c55c46f16428674da9a00d2c9a93456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -603,11 +741,18 @@ Received Import Request.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-26.png
   artifactKey: Guid(bf0abff57e633c042aabb08cd91c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-26.png using Guid(bf0abff57e633c042aabb08cd91c18a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da1dac5e983b7a7ee6d61baaadc7f22') in 0.022152 seconds
+=======
+  Time since last request: 0.000027 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/Orange-Planet.png
+  artifactKey: Guid(8d93f8b646fad08429a3686590a61bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/Orange-Planet.png using Guid(8d93f8b646fad08429a3686590a61bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5858733c6b8ddbc21fe9090b6ab2b835') in 0.010918 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
+<<<<<<< HEAD
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-11.png
   artifactKey: Guid(42933a02e5378ce4fb2867e6deea2b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-11.png using Guid(42933a02e5378ce4fb2867e6deea2b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132f8096c600a8cafacaa535599ed0fb') in 0.021022 seconds
@@ -667,10 +812,16 @@ Received Import Request.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-62.png
   artifactKey: Guid(53e687ad7ac5b0345b6501541d1567ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-62.png using Guid(53e687ad7ac5b0345b6501541d1567ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9718b16086ce6ec5342dd599828533') in 0.022030 seconds
+=======
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/Red-Planet-With-Ice.png
+  artifactKey: Guid(c37b6465dcc722340a3a437ce8dbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/Red-Planet-With-Ice.png using Guid(c37b6465dcc722340a3a437ce8dbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3d36335c496cd7e62af230ad9d02d') in 0.008967 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.207475 seconds.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-69.png
   artifactKey: Guid(841585b6b8a6d044bbc42c9040370d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -691,21 +842,41 @@ Received Import Request.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-79.png
   artifactKey: Guid(1874842025e734f44a4ba6157c320a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-79.png using Guid(1874842025e734f44a4ba6157c320a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf00d9f911f6b4241ea565fc8bc76ef') in 0.020634 seconds
+=======
+  Time since last request: 0.000011 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/Space.png
+  artifactKey: Guid(4ecb598b03c4c5b45bea92168edb3474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/Space.png using Guid(4ecb598b03c4c5b45bea92168edb3474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9ec149622d15deb2797e494c3c2115') in 0.011471 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000021 seconds.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-73.png
   artifactKey: Guid(b1bc14152c59204419eaaf3988e2cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-73.png using Guid(b1bc14152c59204419eaaf3988e2cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583424a9261310f381591a4e611dc37') in 0.016464 seconds
+=======
+  Time since last request: 0.000012 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/earth-like.png
+  artifactKey: Guid(0aab17f474ae0434eb7aff4a29cc0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/earth-like.png using Guid(0aab17f474ae0434eb7aff4a29cc0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc4080f890f676147eea5c59a4328c2') in 0.008468 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.912323 seconds.
   path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-85.png
   artifactKey: Guid(ffa28252ff7dca54ab020638475ef4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-85.png using Guid(ffa28252ff7dca54ab020638475ef4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40176b618713725e4ddfcca22c4a1baa') in 0.020706 seconds
+=======
+  Time since last request: 0.000012 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background/Ice-Planet.png
+  artifactKey: Guid(ef1bf2ecc16140f4195ed991ac4136c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background/Ice-Planet.png using Guid(ef1bf2ecc16140f4195ed991ac4136c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6765633cbfb7544d7c3ad23fa1a769cb') in 0.008951 seconds
+>>>>>>> LD
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
