@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 32675 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 32555 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Programmes\Unity\Unity2022.3.7f1\2022.3.7f1\Editor\Unity.exe
+D:\2022.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/axelr/Nebula/Nebula/Nebula
+C:/Users/Utilisateur/Nebula
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56045
-Successfully changed project path to: C:/Users/axelr/Nebula/Nebula/Nebula
-C:/Users/axelr/Nebula/Nebula/Nebula
+57659
+Successfully changed project path to: C:/Users/Utilisateur/Nebula
+C:/Users/Utilisateur/Nebula
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,64 @@ C:/Users/axelr/Nebula/Nebula/Nebula
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26280] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 783662892 [EditorId] 783662892 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7092] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1719771944 [EditorId] 1719771944 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26280] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 783662892 [EditorId] 783662892 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7092] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1719771944 [EditorId] 1719771944 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
-[Subsystems] Discovering subsystems at path E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/axelr/Nebula/Nebula/Nebula/Assets
+[Subsystems] Discovering subsystems at path D:/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Utilisateur/Nebula/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   NVIDIA
-    VRAM:     5968 MB
-    Driver:   31.0.15.3141
+    VRAM:     10067 MB
+    Driver:   31.0.15.3713
 Initialize mono
-Mono path[0] = 'E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Mono path[0] = 'D:/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Programmes/Unity/Unity2022.3.7f1/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004883 seconds.
-- Loaded All Assemblies, in  0.370 seconds
+Register platform support module: D:/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002447 seconds.
+- Loaded All Assemblies, in  0.227 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.281 seconds
-Domain Reload Profiling: 651ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.164 seconds
+Domain Reload Profiling: 389ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (73ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (142ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (281ms)
+	FinalizeReload (164ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (127ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,12 +114,11 @@ Domain Reload Profiling: 651ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.565 seconds
-Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -130,130 +127,75 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.508 seconds
-Domain Reload Profiling: 1071ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 743ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (327ms)
-		LoadAssemblies (260ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (109ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (508ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
+		SetupLoadedEditorAssemblies (241ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (66.7 KB). Loaded Objects now: 3854.
-Memory consumption went from 129.8 MB to 129.8 MB.
-Total: 2.932600 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.368000 ms  DeleteObjects: 0.107800 ms)
+Unloading 52 unused Assets / (66.3 KB). Loaded Objects now: 3855.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 2.008700 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.683000 ms  DeleteObjects: 0.086900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36906.082545 seconds.
-  path: Assets/Assets/UI
-  artifactKey: Guid(1b35cf81f287d6d49906a19b849b5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI using Guid(1b35cf81f287d6d49906a19b849b5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a521e64963744ccbfb6c3fc845409') in 0.002555 seconds
+  Time since last request: 537164.422078 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(27435a9daeaa2ca45b07e278839f8b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(27435a9daeaa2ca45b07e278839f8b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28716bac32681f0bd1955a3992252031') in 0.011193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 77.143141 seconds.
-  path: Assets/StarlinkUI
-  artifactKey: Guid(7e5537a63c147cb4ca70e1c18c0ad445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarlinkUI using Guid(7e5537a63c147cb4ca70e1c18c0ad445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9e820f811cacf2e76f608a184dabd') in 0.000423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\axelr\Nebula\Nebula\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.400 seconds
-Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 1249ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (252ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (40.4 KB). Loaded Objects now: 3858.
-Memory consumption went from 128.6 MB to 128.5 MB.
-Total: 2.953800 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.218100 ms MarkObjects: 2.437700 ms  DeleteObjects: 0.050900 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3856.
+Memory consumption went from 76.3 MB to 76.3 MB.
+Total: 2.051800 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.796900 ms  DeleteObjects: 0.016700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -271,481 +213,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.845260 seconds.
-  path: Assets/SHarmid
-  artifactKey: Guid(fc4d617e3d511764092aa87828576ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHarmid using Guid(fc4d617e3d511764092aa87828576ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfa96ad57bc945fa7f4cf836034e6ad') in 0.001806 seconds
+  Time since last request: 177.951889 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack
+  artifactKey: Guid(b3938efb24e08d54b8e01ca88d247f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack using Guid(b3938efb24e08d54b8e01ca88d247f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111fa767c96fad0c21842b052c6bef35') in 0.000929 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.512053 seconds.
-  path: Assets/SHarmid/Simple Icons - Classic
-  artifactKey: Guid(34f8f25d49f276f4ea5af041e5164c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHarmid/Simple Icons - Classic using Guid(34f8f25d49f276f4ea5af041e5164c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f953e56404819d1a0521c5b660eee9b2') in 0.000415 seconds
+  Time since last request: 3.656645 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs
+  artifactKey: Guid(aa0a9b43976d16b4fbe1cd65d69e7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs using Guid(aa0a9b43976d16b4fbe1cd65d69e7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743a78e55bfb08eb17c405902b07c724') in 0.000401 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.705763 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons
-  artifactKey: Guid(b51ff194e5e4f1345bb7a2a73841e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons using Guid(b51ff194e5e4f1345bb7a2a73841e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a587f69c942cc33dff376ebfe805ba4') in 0.000386 seconds
+  Time since last request: 2.801178 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest
+  artifactKey: Guid(414636d67cbee1a44885c56876ccca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest using Guid(414636d67cbee1a44885c56876ccca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0566642f26230fac0ac17194fd2bfbf8') in 0.000395 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036735 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (1).prefab
-  artifactKey: Guid(75a6fe1fe66ec754fa6f3ff0307ef127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (1).prefab using Guid(75a6fe1fe66ec754fa6f3ff0307ef127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a90236bd4cf56b0759809777fd7b5f') in 0.035905 seconds
+  Time since last request: 0.054479 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Planet.prefab
+  artifactKey: Guid(7d470bd30d5ceec4383744406c8b6440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Planet.prefab using Guid(7d470bd30d5ceec4383744406c8b6440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44378540315ba35ef2f6fef13021d1f9') in 0.136077 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (11).prefab
-  artifactKey: Guid(d59af37f991fd7640aa6b1f3b5f6f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (11).prefab using Guid(d59af37f991fd7640aa6b1f3b5f6f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0fa8d12191c41a9bc8782360999968') in 0.002230 seconds
+  Time since last request: 2.856825 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Mountains
+  artifactKey: Guid(b5adbd5e0ae3d594b9125db6feb4e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Mountains using Guid(b5adbd5e0ae3d594b9125db6feb4e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166b5e064df99d38616359dc85047340') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063286 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Mountains/SP_Mountain01.prefab
+  artifactKey: Guid(b4d4a657ba67ffd4bbb5553d94e0bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Mountains/SP_Mountain01.prefab using Guid(b4d4a657ba67ffd4bbb5553d94e0bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051f7009d46a487efc9c08f07ee4c608') in 0.006740 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (19).prefab
-  artifactKey: Guid(16d3fb7f55996a64fb32eb1b84e25bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (19).prefab using Guid(16d3fb7f55996a64fb32eb1b84e25bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f35d811f7a64dd2ced3b3587e62e7c') in 0.002925 seconds
+  Time since last request: 16.210072 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground
+  artifactKey: Guid(306bc40c846c55f4987cdf09bd98ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground using Guid(306bc40c846c55f4987cdf09bd98ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f66284ee558299db8def3b9b0eb5b6d') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059897 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground/SP_Ground01.prefab
+  artifactKey: Guid(f1ca28fd0dd51524890ffa1e108b1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground/SP_Ground01.prefab using Guid(f1ca28fd0dd51524890ffa1e108b1a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d21e857532a994fae0386f7b4a6bc3a') in 0.006966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (15).prefab
-  artifactKey: Guid(c567dc83d574f8948bd980eae0af5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (15).prefab using Guid(c567dc83d574f8948bd980eae0af5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59960208cc2604ab2e9c94998862e182') in 0.003338 seconds
+  Time since last request: 0.000074 seconds.
+  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground/SP_Ground03.prefab
+  artifactKey: Guid(50b1b9be61eeee34e819e48b54bfe40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Ground/SP_Ground03.prefab using Guid(50b1b9be61eeee34e819e48b54bfe40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e69fbdf74286cd32acc610d12affc5') in 0.018292 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (39).prefab
-  artifactKey: Guid(feeef821d06ef814c9ddfa7daf6aa2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (39).prefab using Guid(feeef821d06ef814c9ddfa7daf6aa2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e5c2dc0fa0815acc183e8494822fbc') in 0.003131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (6).prefab
-  artifactKey: Guid(fe45693341a5d444cb77a1c6465f967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (6).prefab using Guid(fe45693341a5d444cb77a1c6465f967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc01898661301b13e40bb02a5a2fc9a8') in 0.003305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (38).prefab
-  artifactKey: Guid(952047841e2435c4ebbe5ff3f9112529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (38).prefab using Guid(952047841e2435c4ebbe5ff3f9112529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4628cf6a5f51e32913ac2108baf18f6') in 0.002981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (25).prefab
-  artifactKey: Guid(2815064159ddf784b8aab5b8a902b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (25).prefab using Guid(2815064159ddf784b8aab5b8a902b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c802700959b4274145a9529ee0637ddb') in 0.003653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (31).prefab
-  artifactKey: Guid(c5f2053f0a2c4114d9edd46cf9954666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (31).prefab using Guid(c5f2053f0a2c4114d9edd46cf9954666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2774b886733322167390a3acd6492') in 0.003566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (45).prefab
-  artifactKey: Guid(bbd89efef45f40b4fb0752035fb0fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (45).prefab using Guid(bbd89efef45f40b4fb0752035fb0fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76500e8e0852f8e5a050d7477b0ee66') in 0.002622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (41).prefab
-  artifactKey: Guid(a67341a3fc0c045438e504b65419a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (41).prefab using Guid(a67341a3fc0c045438e504b65419a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b1255d614cde4826adcd55305baf51') in 0.002624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (4).prefab
-  artifactKey: Guid(a4d00db8ce815eb4eb98fa18ab2daa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (4).prefab using Guid(a4d00db8ce815eb4eb98fa18ab2daa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958d03647ed47fcb9413b27193b9f8f') in 0.002860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (20).prefab
-  artifactKey: Guid(07ce3eccf36d34347b578ae6b8aa1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (20).prefab using Guid(07ce3eccf36d34347b578ae6b8aa1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdce8153e124fd2e0e003b79ef881b42') in 0.003083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (27).prefab
-  artifactKey: Guid(04cfd533cec0ab6429b6ed3c9a1f75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (27).prefab using Guid(04cfd533cec0ab6429b6ed3c9a1f75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9e1832a912c27be2b99651d721a240') in 0.002992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (32).prefab
-  artifactKey: Guid(1ad88081e6a748640869681da8d50db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (32).prefab using Guid(1ad88081e6a748640869681da8d50db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9e299bea0e38449b959e275057539') in 0.002281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (42).prefab
-  artifactKey: Guid(54f81d5ced0b37d4a961b5d2f89536bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (42).prefab using Guid(54f81d5ced0b37d4a961b5d2f89536bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed320c951998ed34ab491f83a50b9bac') in 0.003001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (46).prefab
-  artifactKey: Guid(9790fc1acf7ca624ba61d44be3e24e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (46).prefab using Guid(9790fc1acf7ca624ba61d44be3e24e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b010dc715e58d0566d7fe6345fe0f072') in 0.002619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (44).prefab
-  artifactKey: Guid(91630b6cb08f18d48ab8feff475ad6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (44).prefab using Guid(91630b6cb08f18d48ab8feff475ad6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a8d24c5212dca8db6c15c858b6f4f2') in 0.002837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (9).prefab
-  artifactKey: Guid(18429c78293e0804b920fbe73b9440fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (9).prefab using Guid(18429c78293e0804b920fbe73b9440fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac26995f8929cf3cb539b45645ca32') in 0.003283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (26).prefab
-  artifactKey: Guid(67190a03498d5224ca45fb58a0063ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (26).prefab using Guid(67190a03498d5224ca45fb58a0063ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb7759df75adfa489211d059880a2a') in 0.002930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (47).prefab
-  artifactKey: Guid(bc8ff9b9f30e7634592e57fad017b215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (47).prefab using Guid(bc8ff9b9f30e7634592e57fad017b215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5742b7a99f0cab83d9882cf67f8f9d5') in 0.003167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (36).prefab
-  artifactKey: Guid(b787f3d6936ccef489643b480a2dc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (36).prefab using Guid(b787f3d6936ccef489643b480a2dc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5453b787830f44aac6cb93b775c9e6d') in 0.002941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (10).prefab
-  artifactKey: Guid(adefa16ea60380048938c05bfccd06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (10).prefab using Guid(adefa16ea60380048938c05bfccd06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a8313e38670c7f8dcb82ebe15f8431') in 0.003501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (3).prefab
-  artifactKey: Guid(ba9c5e5443750df4fb38ffa71c2c9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (3).prefab using Guid(ba9c5e5443750df4fb38ffa71c2c9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d57b21def28947b29f46e7d8554c63') in 0.003328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (37).prefab
-  artifactKey: Guid(3a69873da12eb1d488b931f72f462fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (37).prefab using Guid(3a69873da12eb1d488b931f72f462fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea568cefe4f09ba77130dcd229d9f2ea') in 0.003023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.458656 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (50).prefab
-  artifactKey: Guid(00416307eecf38a419e9ef56f757f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (50).prefab using Guid(00416307eecf38a419e9ef56f757f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb1552d3d4a3b71ef1eaf16701c3441') in 0.002780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (59).prefab
-  artifactKey: Guid(07df033c091333e408d666e4a62e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (59).prefab using Guid(07df033c091333e408d666e4a62e39b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ecdf3fc54ef99cdce07ad67a3170cf') in 0.003019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (60).prefab
-  artifactKey: Guid(aa3552d5b3591ad498434da750e0f0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (60).prefab using Guid(aa3552d5b3591ad498434da750e0f0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3622f9d23eeb6406e5456691a7743a1') in 0.003062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (55).prefab
-  artifactKey: Guid(8b6fd4df08a4cd04fa4f0210cd3de036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (55).prefab using Guid(8b6fd4df08a4cd04fa4f0210cd3de036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334aab00300cc2e0f395ea5666b58234') in 0.003101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (52).prefab
-  artifactKey: Guid(589b4441af236ef42b493806b954058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (52).prefab using Guid(589b4441af236ef42b493806b954058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbfd1b962200adadd9f4ada3bfc1dea') in 0.003221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (57).prefab
-  artifactKey: Guid(e2a478434ced2574ea617a56caedebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (57).prefab using Guid(e2a478434ced2574ea617a56caedebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4459e63d825b523ef1143782a6d80c') in 0.003169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (63).prefab
-  artifactKey: Guid(2c3aa3b0541647c4f90ca86fcbd7e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (63).prefab using Guid(2c3aa3b0541647c4f90ca86fcbd7e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1f0ce59476422b4e5336c264dcc1a') in 0.003034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (61).prefab
-  artifactKey: Guid(a5a25d08e2c721842977b659e98c5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (61).prefab using Guid(a5a25d08e2c721842977b659e98c5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c536aa8b19cceb758f46928e6fdf81e') in 0.003918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 3.186892 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (68).prefab
-  artifactKey: Guid(0db52a7922f3727448df70dc55d927a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (68).prefab using Guid(0db52a7922f3727448df70dc55d927a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c08ff4cbbeb5046ca48cd6433e30a9') in 0.002287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (71).prefab
-  artifactKey: Guid(5cf697ace7ab8c540bdcece2348a301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (71).prefab using Guid(5cf697ace7ab8c540bdcece2348a301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3345473d73f37370e632518f93b458') in 0.002228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (78).prefab
-  artifactKey: Guid(495c950606cda9641adc30ae35dbf69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (78).prefab using Guid(495c950606cda9641adc30ae35dbf69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6e22e983b573aafd604efdc67e2377') in 0.002735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (80).prefab
-  artifactKey: Guid(5fc49213f4f04fa47909aa66a3efb4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (80).prefab using Guid(5fc49213f4f04fa47909aa66a3efb4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069202f23d04eef9a202e842f9b47d90') in 0.002788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (72).prefab
-  artifactKey: Guid(b3fd9ef45a78d9d4d9fcb04b1d6f58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (72).prefab using Guid(b3fd9ef45a78d9d4d9fcb04b1d6f58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c739039d99ee07489f91d58d26326d4e') in 0.002224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (76).prefab
-  artifactKey: Guid(b2cbeb05b0d0d71499643fdaeeefc66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Icons/Icon (76).prefab using Guid(b2cbeb05b0d0d71499643fdaeeefc66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edca09f83ebacc8f104f14063adef058') in 0.002797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 47.962740 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-3.png
-  artifactKey: Guid(caaa4ea4bc35c5942b65978582626ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-3.png using Guid(caaa4ea4bc35c5942b65978582626ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6391a11bb2ffaab66397db397bcf7687') in 0.094134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-22.png
-  artifactKey: Guid(a154d0c22adaa004482204febeac6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-22.png using Guid(a154d0c22adaa004482204febeac6292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0212abaa5b20b30b1a521bebd84c2b') in 0.022196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-7.png
-  artifactKey: Guid(eda5f4531e26c1946bb8541c5fbb8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-7.png using Guid(eda5f4531e26c1946bb8541c5fbb8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8b6e6d171dd540c15efa60423afb2') in 0.021004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-30.png
-  artifactKey: Guid(086c446dd61ce4540ac9f5564a2b0747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-30.png using Guid(086c446dd61ce4540ac9f5564a2b0747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f813d3587800bd4a68a1b53a146e9') in 0.021349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-20.png
-  artifactKey: Guid(86a415d234107244fa605c5ed2ecac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-20.png using Guid(86a415d234107244fa605c5ed2ecac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c2e04e402888b5f83f1ea448280b5b') in 0.020880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-33.png
-  artifactKey: Guid(3e5e3aeca752a1a4098d0eadc7bc811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-33.png using Guid(3e5e3aeca752a1a4098d0eadc7bc811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90672191430dc5c405e862752c84bbab') in 0.021641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-45.png
-  artifactKey: Guid(ee826753ccf204a4eb259db54aa41f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-45.png using Guid(ee826753ccf204a4eb259db54aa41f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28058d01ce9ef641ce731d76b6ab6b3e') in 0.020714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-32.png
-  artifactKey: Guid(410010015b97bd34f8b7df7d7abdb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-32.png using Guid(410010015b97bd34f8b7df7d7abdb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72117f3905fc11c0156b822952e3527') in 0.019952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-18.png
-  artifactKey: Guid(6c68a20622bf4914fac269cc8ae00cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-18.png using Guid(6c68a20622bf4914fac269cc8ae00cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c92acccf552e9eb5467114bacd4100') in 0.019408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.482368 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-52.png
-  artifactKey: Guid(2797150ebea2be64492d05138a0a289c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-52.png using Guid(2797150ebea2be64492d05138a0a289c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc3c9a902a934f245a5a8a3202ee4e') in 0.036936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-61.png
-  artifactKey: Guid(3f678c41bdf3b9541be96bfd6527977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-61.png using Guid(3f678c41bdf3b9541be96bfd6527977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19ea886eea5878d6da853a7754ad3f1') in 0.036451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-63.png
-  artifactKey: Guid(00370698ae5f8c945b30ed1dbab53599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-63.png using Guid(00370698ae5f8c945b30ed1dbab53599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef06a3977b8bdc98c0a83ba5464e422') in 0.021746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-57.png
-  artifactKey: Guid(3d86760468640dd42beecad97c8ac9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-57.png using Guid(3d86760468640dd42beecad97c8ac9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2658ee818960562b8d35b660a892685') in 0.018061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.189177 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-68.png
-  artifactKey: Guid(185ff4a864b75b2468e444a75634e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-68.png using Guid(185ff4a864b75b2468e444a75634e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589f165fb471ca4f3378538e862f189') in 0.019879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-78.png
-  artifactKey: Guid(8547b6a061974f743b30f7a79fa7daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-78.png using Guid(8547b6a061974f743b30f7a79fa7daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880455067fe887cbfe794e2552cc5f98') in 0.019421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-71.png
-  artifactKey: Guid(1dd88ab66039bdf4ea2ff75cb3f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-71.png using Guid(1dd88ab66039bdf4ea2ff75cb3f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d59367ca8234f2455ffee2906f2fea3') in 0.021572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.928605 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-84.png
-  artifactKey: Guid(6478f377fa7dc2b478cce887538022fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-84.png using Guid(6478f377fa7dc2b478cce887538022fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0902374179e6c3939ee799ded2d0fef2') in 0.019053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-90.png
-  artifactKey: Guid(234dadbd17f9bfa4cb353f78ecd1caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UI/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-90.png using Guid(234dadbd17f9bfa4cb353f78ecd1caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2fc3ac0579b0f376a0e662ad537a71') in 0.019906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

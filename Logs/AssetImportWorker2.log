@@ -15,7 +15,7 @@ C:/Users/Utilisateur/Nebula
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57659
+58587
 Successfully changed project path to: C:/Users/Utilisateur/Nebula
 C:/Users/Utilisateur/Nebula
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Utilisateur/Nebula
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4788] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1316179599 [EditorId] 1316179599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29280] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3317046276 [EditorId] 3317046276 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4788] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 1316179599 [EditorId] 1316179599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29280] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 3317046276 [EditorId] 3317046276 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JMLP15N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path D:/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'D:/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002657 seconds.
-- Loaded All Assemblies, in  0.221 seconds
+Registered in 0.003327 seconds.
+- Loaded All Assemblies, in  0.217 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.155 seconds
-Domain Reload Profiling: 375ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.163 seconds
+Domain Reload Profiling: 378ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (71ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (65ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (156ms)
+	FinalizeReload (163ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (120ms)
+		SetupLoadedEditorAssemblies (124ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Nebula\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.392 seconds
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 6.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.332 seconds
-Domain Reload Profiling: 721ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 716ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (205ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (85ms)
-			TypeCache.Refresh (71ms)
-				TypeCache.ScanAssembly (62ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (333ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (64ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (237ms)
+		SetupLoadedEditorAssemblies (228ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 10.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 52 unused Assets / (66.3 KB). Loaded Objects now: 3855.
 Memory consumption went from 130.6 MB to 130.5 MB.
-Total: 2.161800 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.836300 ms  DeleteObjects: 0.091800 ms)
+Total: 2.062800 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.079400 ms MarkObjects: 1.724600 ms  DeleteObjects: 0.088500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,78 +184,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 537527.679257 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Trees
-  artifactKey: Guid(918c2eb38ac0a2741af384faf2a5441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Trees using Guid(918c2eb38ac0a2741af384faf2a5441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3288417820e829255bd65011aae7b30') in 0.002034 seconds
+  Time since last request: 538733.207557 seconds.
+  path: Assets/Flat Textures Pack/Materials/Water_A.mat
+  artifactKey: Guid(09b830498de6c894ead635fafa7d6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flat Textures Pack/Materials/Water_A.mat using Guid(09b830498de6c894ead635fafa7d6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606829ac7671d2e6316959441c84f62e') in 0.076686 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.041621 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Trees/SP_Tree01.prefab
-  artifactKey: Guid(5cebe2a4682309d48b7f35987ae3d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Trees/SP_Tree01.prefab using Guid(5cebe2a4682309d48b7f35987ae3d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae1eee5b235c0b3023be8a9d8e70f06') in 0.071560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 22.137190 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Stones
-  artifactKey: Guid(8a29473098c60ca4ab4c007cd8a5f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Stones using Guid(8a29473098c60ca4ab4c007cd8a5f69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d829cef555844ee382d8889fa93f92') in 0.000451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.060744 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Stones/SP_Stone01.prefab
-  artifactKey: Guid(206e5a9f66050f84492169056dfdcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Stones/SP_Stone01.prefab using Guid(206e5a9f66050f84492169056dfdcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52a60006b8f95ec9af6223ffe8cc996') in 0.008969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 20.582217 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants
-  artifactKey: Guid(da489ef5d5295d04db55fbe78224b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants using Guid(da489ef5d5295d04db55fbe78224b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffc7858b03eea7b6e5248a3a9aa010d') in 0.000506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057793 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant01.prefab
-  artifactKey: Guid(a5c987dbc66855840ae0a4016772646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant01.prefab using Guid(a5c987dbc66855840ae0a4016772646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613c1d4e5720a67008d7c4d9a21779ca') in 0.009977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant07.prefab
-  artifactKey: Guid(73c246a6053362a4ab20a29df8ef198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant07.prefab using Guid(73c246a6053362a4ab20a29df8ef198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab9db80173d1ac48a23c8ade6f89c57') in 0.009565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant04.prefab
-  artifactKey: Guid(d125ce082a85be34abe8de81c5dc33b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant04.prefab using Guid(d125ce082a85be34abe8de81c5dc33b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70952540b6383645f99aaaee69444c8b') in 0.019840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant06.prefab
-  artifactKey: Guid(aba00a3a9f0d5bc4cbd0b1bc12a3c58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Demo of Low Poly Space Alien Worlds 3D Asset Pack/Prefabs/Space Forest/SP_Plants/SP_Plant06.prefab using Guid(aba00a3a9f0d5bc4cbd0b1bc12a3c58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0336c2451c195051fdc5cdc60fe4c') in 0.009953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 4
