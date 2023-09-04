@@ -7,6 +7,7 @@ public class UI_Build_Manager : MonoBehaviour
 {
     private Button button;
     public GameObject ButtonBuild;
+    private bool isOn = false;
     void Start()
     {
        button = GameObject.Find("ButtonMenu").GetComponent<Button>();
@@ -16,13 +17,23 @@ public class UI_Build_Manager : MonoBehaviour
 
     public void buttonSelected()
     {
-        Debug.Log("Click");
-        ButtonBuild.SetActive(true);
+        if (isOn == false) 
+          { 
+            
+            ButtonBuild.SetActive(true);
+            isOn = true;
+          }
+        else
+          {
+           
+            ButtonBuild.SetActive(false);
+            isOn = false;
+          }
     }
 
     void OnDisable()
     {
-        Debug.Log("Remove Listener");
+        
         button.onClick.RemoveListener(buttonSelected);
     }
 

@@ -1,28 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GoldManager : MonoBehaviour
 {
+    public MineOr mineOr;
     public Text goldText;
-    int goldCount = 0;
+    public int goldCount = 0;
     public float goldIncreaseSpeed = 1f;
+    
+    
     void Start()
     {
-        
+    
         InvokeRepeating("IncreaseGold", goldIncreaseSpeed, goldIncreaseSpeed);
     }
 
    
     void Update()
     {
+        
         goldText.text = "Gold : " + goldCount.ToString();
+       
+       
 
     }
 
     void IncreaseGold()
     {
-     goldCount = goldCount + 5;
+
+        {
+            int goldCounter = mineOr.BonusGold;
+            goldCount = goldCount + goldCounter;
+            Debug.Log(goldCounter);
+        } 
     }
+   
+
 }
