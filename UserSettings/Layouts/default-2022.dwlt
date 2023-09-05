@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,13 +270,13 @@ MonoBehaviour:
     height: 698
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +358,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Camera
+    - Assets/Flat Textures Pack/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -366,16 +366,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/Camera
+  - Assets/Flat Textures Pack/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\axelr\Nebula\Nebula\Nebula
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 328}
-    m_SelectedIDs: 0e5e0000
-    m_LastClickedID: 24078
-    m_ExpandedIDs: 00000000cc5d0000ce5d0000005e00001c5e00001e5e000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: a48e0000
+    m_LastClickedID: 36516
+    m_ExpandedIDs: 00000000cc5d0000ce5d0000fe5d0000005e00006a8e0000768e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +501,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 209
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -545,9 +545,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 405d0000
-      m_LastClickedID: 23872
-      m_ExpandedIDs: 1cfbffff105d0000205d0000
+      m_SelectedIDs: 1027ffff
+      m_LastClickedID: -55536
+      m_ExpandedIDs: 1027ffff8a88ffff1cfbffff105d0000205d0000405d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -902,9 +902,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 418.3651, y: -151.43115, z: 809.5021}
+    m_Target: {x: 27.433731, y: -164.72704, z: 134.11441}
     speed: 2
-    m_Value: {x: 418.3651, y: -151.43115, z: 809.5021}
+    m_Value: {x: 27.433731, y: -164.72704, z: 134.11441}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -950,13 +950,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.26991534, y: 0.015808353, z: -0.003747804, w: -0.96284544}
+    m_Target: {x: -0.3396751, y: 0.53865623, z: -0.24994627, w: -0.7295065}
     speed: 2
-    m_Value: {x: -0.26988977, y: 0.015806856, z: -0.003747449, w: -0.9627542}
+    m_Value: {x: -0.33964407, y: 0.53860706, z: -0.24992344, w: -0.72943985}
   m_Size:
-    m_Target: 677.2898
+    m_Target: 162.0343
     speed: 2
-    m_Value: 677.2898
+    m_Value: 162.0343
   m_Ortho:
     m_Target: 0
     speed: 2
