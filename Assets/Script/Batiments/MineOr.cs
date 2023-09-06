@@ -39,7 +39,8 @@ public class MineOr : MonoBehaviour
     private int minutes;
     private int seconds;
 
-    public float totalTime = 10;
+    [Header("Timer")]
+    public float totalTimeInSeconds = 10;
     private float currentTimeInseconds = 0;
     
     private bool isTimerRunning = false;
@@ -67,12 +68,13 @@ public class MineOr : MonoBehaviour
     public void Update()
     {
         string formatedGoldCount = goldCount > 10000 ? (goldCount / 1000).ToString() + "K" : goldCount.ToString();
+        string fortatedReachGold = reachGold > 10000 ? (reachGold / 1000).ToString() + "K" : reachGold.ToString();
         goldText.text = formatedGoldCount.ToString();
         goldProduction();
         if (isClick == true)
         {
-            LevelText.text = "Mine d'or niveau : " + currentLevel.ToString() + "\n" + BonusGold.ToString() + " / Sec\n" + "Vie : " + health.ToString() + " Bouclier" + shield.ToString();
-            goldUpgradeButton.text = "Upgrade : " + formatedGoldCount.ToString() + " / " + reachGold.ToString();
+            LevelText.text = "Mine d'or niveau : " + currentLevel.ToString() + "\n" + BonusGold.ToString() + " / Sec\n" + "Vie : " + health.ToString() + " Bouclier : " + shield.ToString();
+            goldUpgradeButton.text = "Upgrade : " + formatedGoldCount.ToString() + " / " + fortatedReachGold.ToString();
         }
 
         if (goldCount < reachGold)
@@ -86,14 +88,14 @@ public class MineOr : MonoBehaviour
 
         if (isTimerRunning == true) 
         {
-            currentTimeInseconds += Time.deltaTime;
-            float progress = currentTimeInseconds / totalTime;
+            currentTimeInseconds -= Time.deltaTime;
+            float progress = currentTimeInseconds / totalTimeInSeconds;
             timeBarImage.rectTransform.localScale = new Vector3(progress, 1f, 0.5f);
             timeBarImage.fillAmount = progress;
             slider.value = progress;
             timerBarIsActive = true;
             
-            if (currentTimeInseconds >= totalTime)
+            if (currentTimeInseconds <= 0)
             {
                 StopTimer();
                 timerBarIsActive = false;
@@ -108,7 +110,7 @@ public class MineOr : MonoBehaviour
         {
           TimerBar.gameObject.SetActive(true);
           int integerTime = Mathf.RoundToInt(currentTimeInseconds);
-          TimerBar.text = "Temps : "+ hours.ToString() + " Hrs " + minutes.ToString() + " Min " + seconds.ToString() + " Sec" + " / " + totalTime.ToString() + " Sec";
+          TimerBar.text = "Temps : "+ hours.ToString() + " Hrs " + minutes.ToString() + " Min " + seconds.ToString() + " Sec" ;
         }
         else
         {
@@ -184,10 +186,10 @@ public class MineOr : MonoBehaviour
                 
                 reachGold = reachGold * 4;
                 BonusGold = BonusGold * 2;
-                totalTime = totalTime * 2;
+                totalTimeInSeconds = totalTimeInSeconds * 2;
 
                 health = health + 10;
-                shield = shield + 10;
+                shield = shield + 5;
             
         
     }
@@ -205,6 +207,7 @@ public class MineOr : MonoBehaviour
     public void StartTimer()
     {
         isTimerRunning = true;
+        currentTimeInseconds = totalTimeInSeconds;
     }
 
     public void StopTimer() 
@@ -215,7 +218,7 @@ public class MineOr : MonoBehaviour
 
     public void ResetTimer()
     {
-        currentTimeInseconds = 0.0f;
+        currentTimeInseconds = 0f;
     }
 
 
