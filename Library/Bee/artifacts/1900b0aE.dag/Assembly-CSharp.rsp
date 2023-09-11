@@ -395,8 +395,6 @@
 "Assets/Script/HUD/Mine_or/UI_MineOr.cs"
 "Assets/Script/HUD/Mine_or/UI_Mine_Or_Info.cs"
 "Assets/Script/HUD/UI_Build_Manager.cs"
-"Assets/Script/Ressources/ChroniumManager.cs"
-"Assets/Script/Ressources/GoldManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

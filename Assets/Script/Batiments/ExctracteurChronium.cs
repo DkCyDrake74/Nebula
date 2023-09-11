@@ -16,8 +16,8 @@ public class ExctracteurChronium : MonoBehaviour
     public GameObject ChroniumButton;
 
     public int currentChroniumLevel;
-    private int reachChronium;
-    private int bonusChronium;
+    private int reachChronium = 100;
+    public int bonusChronium;
 
     public CameraMovement cameraMovement;
 
@@ -26,6 +26,10 @@ public class ExctracteurChronium : MonoBehaviour
 
     public float ChroniumIncreaseSpeed = 1f;
     private bool isClick;
+
+    [Header("Stats")]
+    public int ChroniumHealth;
+    public int ChroniumShield;
 
     [Header("Timer")]
     public float ChroniumTotalTimeInSeconds = 10;
@@ -44,7 +48,25 @@ public class ExctracteurChronium : MonoBehaviour
 
     void Update()
     {
-        ChroniumText.text = "Chronium : " + ChroniumCount.ToString();
+        string formatedChroniumCount = ChroniumCount > 10000 ? (ChroniumCount / 1000).ToString() + "K" : ChroniumCount.ToString();
+        string formatedReachChronium = reachChronium > 10000 ? (reachChronium / 1000).ToString() + "K" : reachChronium.ToString();
+        
+        ChroniumText.text = "Chronium : " + formatedChroniumCount.ToString();
+
+        if  (isClick == true)
+        {
+            chroniumLevelText.text = "Extracteur de chronium niveau : " + currentChroniumLevel.ToString() + "\n" + bonusChronium.ToString() + " / Sec\n" + "Vie : " + ChroniumHealth.ToString() + " Bouclier : " + ChroniumShield.ToString();
+            chroniumUpgradeButton.text = "Upgrade : " + formatedChroniumCount.ToString() + " / " + formatedReachChronium.ToString();
+        }
+        if (ChroniumCount < reachChronium)
+        {
+            chroniumUpgradeButton.color = Color.red;
+        }
+        else
+        {
+            chroniumUpgradeButton.color = Color.green;
+        }
+
     }
 
     private void OnMouseDown()
@@ -68,6 +90,7 @@ public class ExctracteurChronium : MonoBehaviour
     void ChroniumButtonSelected()
     {
         clickUpgradeButton();
+        Debug.Log("ok");
     }
 
     void OnDisable()

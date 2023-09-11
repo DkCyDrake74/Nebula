@@ -2052,6 +2052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChroniumText: {fileID: 326700703}
+  ChroniumCount: 0
   ChroniumIncreaseSpeed: 1
 --- !u!114 &1270157930
 MonoBehaviour:
@@ -2774,6 +2775,11 @@ PrefabInstance:
       propertyPath: ChroniumText
       value: 
       objectReference: {fileID: 326700703}
+    - target: {fileID: 2446441590302636982, guid: 37af94dae6027f447a35c3e45ea7bfb3,
+        type: 3}
+      propertyPath: bonusChronium
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2446441590302636982, guid: 37af94dae6027f447a35c3e45ea7bfb3,
         type: 3}
       propertyPath: ChroniumButton
