@@ -4,6 +4,7 @@ using System.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ExctracteurChronium : MonoBehaviour
 {
     public Text chroniumLevelText;
@@ -37,6 +38,12 @@ public class ExctracteurChronium : MonoBehaviour
 
     private bool isTimerRunning = false;
 
+    private bool timerBarIsActive = false;
+
+    private int hours;
+    private int minutes;
+    private int seconds;
+
     void Start()
     {
         isClick = false;
@@ -51,7 +58,7 @@ public class ExctracteurChronium : MonoBehaviour
         string formatedChroniumCount = ChroniumCount > 10000 ? (ChroniumCount / 1000).ToString() + "K" : ChroniumCount.ToString();
         string formatedReachChronium = reachChronium > 10000 ? (reachChronium / 1000).ToString() + "K" : reachChronium.ToString();
         
-        ChroniumText.text = "Chronium : " + formatedChroniumCount.ToString();
+        ChroniumText.text = formatedChroniumCount.ToString();
 
         if  (isClick == true)
         {
@@ -65,6 +72,37 @@ public class ExctracteurChronium : MonoBehaviour
         else
         {
             chroniumUpgradeButton.color = Color.green;
+        }
+
+        if (isTimerRunning == true)
+        {
+            currentTimeInseconds -= Time.deltaTime;
+            float progress = currentTimeInseconds / ChroniumTotalTimeInSeconds;
+            chroniumTimeBarImage.rectTransform.localScale = new Vector3(progress, 1f, 0.5f);
+            chroniumTimeBarImage.fillAmount = progress;
+            chroniumSlider.value = progress;
+            timerBarIsActive = true;
+
+            if (currentTimeInseconds <= 0)
+            {
+                StopTimer();
+                timerBarIsActive = false;
+            }
+            hours = (int)(currentTimeInseconds / 3600);
+            minutes = (int)((currentTimeInseconds % 3600) / 60);
+            seconds = (int)(currentTimeInseconds % 60);
+
+        }
+
+        if (timerBarIsActive == true)
+        {
+            chroniumTimerBar.gameObject.SetActive(true);
+            int integerTime = Mathf.RoundToInt(currentTimeInseconds);
+            chroniumTimerBar.text = "Temps : " + hours.ToString() + " Hrs " + minutes.ToString() + " Min " + seconds.ToString() + " Sec";
+        }
+        else
+        {
+            chroniumTimerBar.gameObject.SetActive(false);
         }
 
     }
@@ -90,7 +128,6 @@ public class ExctracteurChronium : MonoBehaviour
     void ChroniumButtonSelected()
     {
         clickUpgradeButton();
-        Debug.Log("ok");
     }
 
     void OnDisable()
@@ -127,6 +164,10 @@ public class ExctracteurChronium : MonoBehaviour
 
         reachChronium = reachChronium * 4;
         bonusChronium = bonusChronium  * 2;
+        ChroniumTotalTimeInSeconds = ChroniumTotalTimeInSeconds * 2;
+
+        ChroniumHealth = ChroniumHealth + 5;
+        ChroniumShield = ChroniumShield + 5;
 
     }
 
