@@ -390,6 +390,7 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Script/Batiments/ExctracteurChronium.cs"
 "Assets/Script/Batiments/MineOr.cs"
+"Assets/Script/Batiments/ReserveOr.cs"
 "Assets/Script/Camera/CameraMovement.cs"
 "Assets/Script/HUD/HUD_Manager.cs"
 "Assets/Script/HUD/Mine_or/UI_MineOr.cs"

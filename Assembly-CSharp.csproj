@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\HUD\Mine_or\UI_Mine_Or_Info.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Script\HUD\HUD_Manager.cs" />
+    <Compile Include="Assets\Script\Batiments\ReserveOr.cs" />
     <Compile Include="Assets\Script\Camera\CameraMovement.cs" />
     <Compile Include="Assets\Script\Batiments\ExctracteurChronium.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
